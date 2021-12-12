@@ -1,0 +1,10 @@
+.submit-section {
+  margin-top: 30px;
+}
+
+.submit-button {
+  border: none;
+  border-radius: 5px;
+  background-color: purple;
+  color: #fff;
+}

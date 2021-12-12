@@ -1,0 +1,23 @@
+.file-label {
+  border: 2px dotted rgb(55, 143, 55);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  padding: 8px;
+}
+
+.upload-input {
+  display: none
+}
+
+.add-button {
+  background-color: rgb(55, 143, 55);
+  width: 65px;
+  font-size: 45px;
+  border-radius: 50%;
+  margin: 0;
+  padding-left: 15px;
+  color: #fff;
+}
