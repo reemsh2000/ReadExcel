@@ -9,7 +9,7 @@ Demo Link :[link](https://61b76c8caac10b00076cc010--pensive-jepsen-640d86.netlif
 * As a user, I can see a progress bar should indicate the status of the uploaded file
 * Once the file is uploaded, I can choose if the file contains headers or not 
 * As a user, I can see the column in the dropdown list and select from a drop-down list of column names what is the column name that contains Text.
-* As a user, I can click the button submit and a message All done! appears.
+* As a user, I can click the button submit and a message 'All done!' appears.
 
 Source Code  :[link](https://github.com/reemsh2000/ReadExcel)
 
