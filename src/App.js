@@ -10,10 +10,10 @@ import CheckHeaders from './component/checkHeader.jsx';
 function App() {
   const [uploadPercentage, setUploadPercentage] = useState(0);
   const [columnNames, setColumnNames] = useState([]);
-
   // Get File and set the percentage of progress 
-  const handleChange = async (e) => {
-    const data = await readXlsxFile(e.target.files[0]);
+  const handleChange = async (file) => {
+    // e.target.files[0]
+    const data = await readXlsxFile(file);
     setColumnNames(data[0]);
     const options = {
       onUploadProgress: (progressEvent) => {
