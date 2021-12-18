@@ -22,7 +22,7 @@ function App() {
         setUploadPercentage(percent);
       },
     };
-    await axios.post("https://httpbin.org/post", data, options);
+    await axios.post("https://jsonplaceholder.typicode.com/albums", data, options);
   };
 
   return (
